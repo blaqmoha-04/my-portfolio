@@ -303,6 +303,7 @@ footer {
 
 @media (max-width: 768px){
     header{
+        justify-content: center;
         padding: 15px 5%;
     }
 
@@ -333,9 +334,10 @@ footer {
         font-size: 0.95rem;
     }
 
-    img{
-        width: 30px;
-        height: 15px;
+    .imageofme img{
+        width: 210px;
+        height: 250px;
+        border: 1px #fff solid;
     }
 
     button{
@@ -389,7 +391,7 @@ footer {
     }
 
     .Contact{
-        
+        justify-content: center;
     }
 
     #massage{
