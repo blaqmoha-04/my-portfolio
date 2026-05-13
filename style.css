@@ -342,23 +342,50 @@ footer {
         width: 110px;
         height: 40px;
     }
+
     .About{
         margin-top: 50px;
-        padding:  1.0rem;
-        height: 300px;
-        text-align: center;   
+        padding:  1.2rem;
+        height: 350px;
+        text-align: center;
+        width: 100%; 
+
+    }
+
+    .text-container2{
+        padding: 0;
     }
 
     .stat{
-        display: none;
+        display: flex;
+        background: none;
+        gap: 70px;
+    }
+
+    .stat .stat-box{
+        font-size: 14px;
+        place-items: center;
+        color: darkblue;
+        height: 20px;
+        width: 20px;
+        font-size: 10px;
+        padding: 0;
     }
 
     .cards{
-        padding: 5px;
+        justify-content: center;
+        padding: 30px;
         height: 10px;
         width: 12px;
-        padding-right: 51px;
+        /* padding-right: 51px; */
         place-items: center;
+    }
+
+    .cards img{
+        padding-top: 10px;
+        place-items: center;
+        height: 90px;
+        width: 90px;
     }
 
     .Contact{
